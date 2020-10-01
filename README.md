@@ -35,6 +35,7 @@ Run `npm install` on root directory of the project.
 Run `ng serve` on root directory of this project.
 
 ## The only dependencies used in the project are jquery & bootstrap.
+Jquery & Bootstrap
 
 ## Screen shots of the pages in the application.
 !['Orders Page'](src/assets/images/orders.PNG?raw=true "Orders Page")
