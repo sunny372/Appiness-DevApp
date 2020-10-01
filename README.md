@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## After cloning the repository from the github, please run below command
+
+Run `npm install` on root directory of the project.
+
+## To run the application, please use the command below
+
+Run `ng serve` on root directory of this project.
+
+## The only dependencies used in the project are jquery & bootstrap.
+
+## Screen shots of the pages in the application.
+![Alt text](/assets/images/orders.PNG?raw=true "Orders Page")
+![Alt text](/assets/images/orderdetails.PNG?raw=true "Order Details Page")
+
+

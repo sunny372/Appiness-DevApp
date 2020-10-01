@@ -1,0 +1,27 @@
+<div class="container-fluid mt-3">
+  <!--table view to display list of orders received-->
+  <table class="table table-bordered rounded-2 col-12">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Items Ordered</th>
+        <th>Total Amount</th>
+        <th>Status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of orderList">
+        <td (click)="showOrderDetails(item)" class="text-primary hover-effect">{{ item.customerName }}</td>
+        <td>{{ item.orderedItems }}</td>
+        <td>{{ item.totalAmount }}</td>
+        <td
+          [ngClass]="{'received': item.orderStatus === 'Order Received', 'preparing': item.orderStatus === 'Preparing', 'ready': item.orderStatus === 'Ready to Serve'}">
+          {{ item.orderStatus }}</td>
+        <td>
+          <button class="btn btn-primary" (click)="changeStatus(item)" [disabled]="item.orderStatus === 'Ready to Serve'">Change Status</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

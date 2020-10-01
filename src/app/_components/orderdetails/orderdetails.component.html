@@ -1,0 +1,30 @@
+<div class="container-fluid p-4">
+  <div class="btn btn-info mb-4" (click)="goToPrev()">Back</div>
+
+  <div class="card">
+    <div class="d-flex">
+      <label class="font-weigh-bold col-sm-2">Items: </label>
+      <div id="item-names">{{ detailObj.items ? detailObj.items : '' }}</div>
+    </div>
+
+    <div class="d-flex">
+      <label class="font-weigh-bold col-sm-2">Price: </label>
+      <div id="prices">{{ detailObj.price ? detailObj.price : '' }}</div>
+    </div>
+
+    <div class="d-flex">
+      <label class="font-weigh-bold col-sm-2">Total Price: </label>
+      <div id="total-price">{{ detailObj.totalAmount ? detailObj.totalAmount : '' }}</div>
+    </div>
+
+    <div class="d-flex">
+      <label class="font-weigh-bold col-sm-2">Customer Name: </label>
+      <div id="c-name">{{ detailObj.customerName ? detailObj.customerName : '' }}</div>
+    </div>
+
+    <div class="d-flex">
+      <label class="font-weigh-bold col-sm-2">Address: </label>
+      <div id="address">{{ detailObj.address ? detailObj.address : '' }}</div>
+    </div>
+  </div>
+</div>

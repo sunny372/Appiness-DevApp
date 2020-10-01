@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.received {
+  color: rgba(103, 160, 212, 0.719);
+}
+.preparing {
+  color: rgb(218, 226, 110);
+}
+.ready {
+  color: rgb(158, 224, 104);
+}
+
+.hover-effect {
+  cursor: pointer;
+}
