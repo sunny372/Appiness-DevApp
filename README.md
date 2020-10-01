@@ -40,5 +40,6 @@ Jquery & Bootstrap
 ## Screen shots of the pages in the application.
 !['Orders Page'](src/assets/images/orders.PNG?raw=true "Orders Page")
 !['Order Details Page'](src/assets/images/orderdetails.PNG?raw=true "Order Details Page")
+!['Screen shot'](src/assets/images/screen3.PNG?raw=true "Order Details Page")
 
 
